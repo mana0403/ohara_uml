@@ -11,11 +11,12 @@ class RoboDog {
  -第二の整数
  -2つの整数の和
  ・操作
- +名前の取得()
- +名前の変更()
- +時刻の設定()
- +2つの整数を設定()
- +たし算結果取得()
+ +getMyname()
+ +setMyName()
+ +setNewTime()
+ +setFirstValue()
+ +setSecondValue()
+ +getAddition()
 }
 
 @enduml
