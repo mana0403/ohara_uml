@@ -2,21 +2,23 @@
 skinparam classAttributeIconSize 0
 class RoboDog {
 ・属性
- -名前
- -現在の時刻
- -午前の挨拶
- -午後の挨拶
- -夜の挨拶
- -第一の整数
- -第二の整数
- -2つの整数の和
+ -myName: String
+ -myTime: int
+ -goodMorning: String
+ -goodAfternoon: String
+ -goodNight: String
+ -firstValue: int
+ -secondValue: int
+ 
+ -result: int
  ・操作
- +getMyname()
- +setMyName()
- +setNewTime()
- +setFirstValue()
- +setSecondValue()
- +getAddition()
+ +getMyname(): String
+ +setNewName(): int
+ +setNewTime(): void
+ +getMyGreeting(): String
+ +setFirstValue(): void
+ +setSecondValue(): void
+ +getAddition(): int
 }
 
 @enduml
